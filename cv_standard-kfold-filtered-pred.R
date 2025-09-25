@@ -1,9 +1,3 @@
-### Script para Validação Cruzada ###
-
-#Data: 2023-12-12
-#Autores: Erli dos Santos, Marcos Cardoso Taciara Horst
-#Contato: erlipinto@gmail.com, cardoso.mvs@gmail.com 
-
 ## Objetivo:
 # Este script realiza modelagem estatística usando o algoritmo Random Forest para predizer a variável de resposta 'estoque'. 
 # Inclui etapas de preparação dos dados, treinamento do modelo com validação cruzada k-fold, avaliação de métricas de desempenho e 
@@ -534,3 +528,4 @@ if (exists("cl")) {
 } else { 
   print("Code is not working with clusters.")
 }
+
